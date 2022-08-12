@@ -4,12 +4,13 @@ body {
 }
 
 body {
-    // font-family:;
-    // font-size: ;
-    // font-weight: ;
-    // color: ;
-    // line-height: ;
-    // background-color: ;
+    font-family: "EuclidCircularA";
+    font-size: 16px;
+    font-weight: 400;
+    color: $black;
+    line-height: 1.2;
+    background-color: $gray-bg;
+    position: relative;
     // display: flex;
     // flex-direction: column;
 }
@@ -28,12 +29,9 @@ body {
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1920px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
-h1 {
-    font-family: "EuclidCircularA";
-    font-size: 60px;
-}
+

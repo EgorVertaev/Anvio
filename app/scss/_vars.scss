@@ -4,9 +4,14 @@ $md: 768;
 $sm: 576;
 $xsm: 375;
 
-@mixin r($width) {
+$white: #ffffff;
+$black: #000000;
+$red: #CE2127;
+$gray-bg: #eeeeee;
+
+// @mixin r($width) {
     
-    @media only screen and (max-width: $width + "px") {
-        @content;
-    }
-}
+//     @media only screen and (max-width: $width + "px") {
+//         @content;
+//     }
+// }
