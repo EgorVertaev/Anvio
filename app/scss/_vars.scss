@@ -1,3 +1,6 @@
+$xsl: 1910;
+$xxxl: 1660;
+$xxl: 1450;
 $xl: 1200;
 $lg: 992;
 $md: 768;
@@ -8,10 +11,11 @@ $white: #ffffff;
 $black: #000000;
 $red: #CE2127;
 $gray-bg: #eeeeee;
+$semi-black: #1E1E1E;
 
-// @mixin r($width) {
+@mixin r($width) {
     
-//     @media only screen and (max-width: $width + "px") {
-//         @content;
-//     }
-// }
+    @media only screen and (max-width: $width + "px") {
+        @content;
+    }
+}

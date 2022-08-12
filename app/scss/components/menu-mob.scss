@@ -1,0 +1,22 @@
+.menu-mob {
+  position: fixed;
+  width: 300px;
+  height: 400px;
+  border-radius: 30px;
+  padding: 20px;
+  right: 0;
+  top: 50px;
+  z-index: 9999;
+  background-color: $white;
+  transform: translateY(300%);
+
+
+  &__inner {
+  }
+
+
+  &--active {
+    transform: translateY(0);
+  }
+}
+
