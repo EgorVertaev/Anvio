@@ -4,6 +4,17 @@ const burgerInner = document.querySelector('.menu__burger-inner')
 const menuMob = document.querySelector('.menu-mob')
 const body = document.querySelector('body')
 const wrapper = document.querySelector('.wrapper')
+const menuMobBtn = document.querySelectorAll('.menu-mob__btn')
+
+menuMobBtn.forEach(button => {
+  button.addEventListener('click', () => {
+    let submenu = button.nextElementSibling;
+    button.classList.toggle('menu-mob__btn--active')
+    submenu.classList.toggle('menu-mob__sub--active')
+  })
+})
+
+
 
 burger.addEventListener('click', (e) => {
   e.stopPropagation();
@@ -19,7 +30,6 @@ wrapper.addEventListener('click', () => {
   burger.classList.remove('menu__burger--active')
   burgerInner.classList.remove('menu__burger-inner--active')
 })
-
 
 
 const swiper = new Swiper('.discond-slider', {
