@@ -15,7 +15,7 @@ body {
     // flex-direction: column;
 
     &.overlay {
-        
+       
         .wrapper {
             content: "";
             position: absolute;
@@ -48,5 +48,23 @@ body {
     margin: 0 auto;
     padding: 0 30px;
 }
+
+
+.block {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-size: 64px;
+        font-weight: 600;
+    }
+
+    &__btn  {
+        color: $black;
+    }
+}
+
 
 

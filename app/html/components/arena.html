@@ -1,0 +1,88 @@
+<div class="arena">
+  <div class="arena__top">
+    <div class="arena__content">
+      <h2 class="arena__title">
+        Арена
+      </h2>
+      <div class="arena__inner">
+        <span class="arena__info arena__info--gamepad">2-12</span>
+        <span class="arena__info arena__info--time">40 мин.</span>
+        <span class="arena__info arena__info--money">от 250 ₴</span>
+      </div>
+      <p class="arena__text">
+        В нашем парке можно устроить праздник, который не забудется ни имененниками, ни их гостями.
+      </p>
+      <div class="arena__buttons">
+        <a class="btn btn--pmedium" href="#">цены</a>
+        <a class="btn btn--trans-br-cb" href="#">подробнее</a>
+      </div>
+    </div>
+    <div class="arena__photo">
+      <img src="./images/content/arena/arena.jpg" alt="arena">
+    </div>
+  </div>
+  <div class="arena__main">
+      <ul class="arena__list">
+        <li class="arena__item">
+          @@include('./../components/arena-card.html',{
+            "bg": "<div class='arena-card' style='background-image: url(./images/content/arena/video1.jpg);'>",
+            "title": "city-z",
+            "genre": "Шутер",
+            "time": "30 мин.",
+            "people": "1-4 чел.",
+            "age": "12+",
+          })
+        </li>
+        <li class="arena__item">
+          @@include('./../components/arena-card.html',{
+            "bg": "<div class='arena-card' style='background-image: url(./images/content/arena/video2.jpg);'>",
+            "title": "city-z: servivors",
+            "genre": "Шутер",
+            "time": "30 мин.",
+            "people": "1-4 чел.",
+            "age": "12+",
+          })
+        </li>
+        <li class="arena__item">
+          @@include('./../components/arena-card.html',{
+            "bg": "<div class='arena-card' style='background-image: url(./images/content/arena/video3.jpg);'>",
+            "title": "city-z: antidote",
+            "genre": "Шутер",
+            "time": "30 мин.",
+            "people": "1-4 чел.",
+            "age": "12+",
+          })
+        </li>
+        <li class="arena__item arena__item--large">
+          @@include('./../components/arena-card.html',{
+            "bg": "<div class='arena-card' style='background-image: url(./images/content/arena/video4.jpg);'>",
+            "title": "revolta",
+            "genre": "Шутер",
+            "time": "30 мин.",
+            "people": "1-6 чел.",
+            "age": "12+",
+          })
+        </li>
+        <li class="arena__item arena__item--medium">
+          @@include('./../components/arena-card.html',{
+            "bg": "<div class='arena-card' style='background-image: url(./images/content/arena/video5.jpg);'>",
+            "title": "Station Zarya",
+            "genre": "Фантастика",
+            "time": "30 мин.",
+            "people": "1-6 чел.",
+            "age": "12+",
+          })
+        </li>
+        <li class="arena__item arena__item--medium">
+          @@include('./../components/arena-card.html',{
+            "bg": "<div class='arena-card' style='background-image: url(./images/content/arena/video6.jpg);'>",
+            "title": "LOST SANCTUARY",
+            "genre": "Квест",
+            "time": "30 мин.",
+            "people": "1-6 чел.",
+            "age": "12+",
+          })
+        </li>
+      </ul>
+  </div>
+</div>
